@@ -12,4 +12,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: / hello-world-app/build
+  base-directory: build
