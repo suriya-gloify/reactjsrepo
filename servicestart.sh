@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Navigate to the deployment directory
-cd /home/ec2-user/hello-world-app/build
+sudo cd /home/ec2-user/hello-world-app/build
 
 # Start the application
-npm start
+sudo npm start
 
 # run the build 
-npm run build 
+sudo npm run build 
 
 # restart the nginx 
 sudo systemctl restart nginx 
